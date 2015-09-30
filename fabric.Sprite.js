@@ -83,7 +83,6 @@ fabric.Sprite.fromImage = function(img, callback, imgOptions) {
 
 fabric.Sprite.fromURL = function(url, callback, imgOptions) {
 	fabric.util.loadImage(url, function(img) {
-		console.log(img);
 		callback(new fabric.Sprite(img, imgOptions));
 	});
 };
