@@ -1,1 +1,1 @@
-# Fabric.js-plugins.
+Additional classes for Fabric.js
